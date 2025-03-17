@@ -6,13 +6,10 @@
   <meta name="description" content="Ustvarjalec Barvnih Palet - Ustvarjanje, Mešanje in Pretvarjanje Barv">
   <meta name="author" content="Vaše Ime">
   <title>Ustvarjalec Barvnih Palet</title>
-  <!-- Povezava do zunanje CSS datoteke -->
   <link rel="stylesheet" href="styles.css">
-  <!-- Font Awesome za ikone -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <!-- Lepljiv navigacijski meni -->
   <nav class="sticky-nav">
     <a href="#uvod">Uvod</a>
     <a href="#funkcije">Funkcije</a>
@@ -22,21 +19,17 @@
     <a href="#pretvornik-hex-rgb">Pretvornik HEX v RGB</a>
   </nav>
 
-  <!-- Glava -->
   <header>
     <h1>Ustvarjalec Barvnih Palet</h1>
   </header>
 
-  <!-- Gumbi za družbena omrežja -->
   <div class="social-media">
     <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
     <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
     <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
   </div>
 
-  <!-- Glavna vsebina -->
   <main>
-    <!-- Uvodni odsek -->
     <section id="uvod">
       <h2>Uvod</h2>
       <p>
@@ -46,14 +39,13 @@
       </p>
     </section>
 
-    <!-- Odsek s funkcijami -->
     <section id="funkcije">
       <h2>Funkcije</h2>
       <div class="features-list">
         <div class="feature">
           <h3>Naključna Barvna Paleta</h3>
           <p>
-            Ustvarite naključno barvno paleto s štirimi edinstvenimi barvami. Vsaka barva ima svojo HEX kodo,
+            Ustvarite naključno barvno paleto z dvema edinstvenima barvama. Vsaka barva ima svojo HEX kodo,
             ki jo lahko kopirate za uporabo v svojih projektih.
           </p>
         </div>
@@ -78,7 +70,6 @@
       </div>
     </section>
 
-    <!-- Odsek z naključno barvno paleto -->
     <section id="nakljucna-paleta">
       <h2>Naključna Barvna Paleta</h2>
       <div class="button-container">
@@ -88,43 +79,29 @@
       <div class="color-container">
         <div class="color-box" id="color1"></div>
         <div class="color-box" id="color2"></div>
-        <div class="color-box" id="color3"></div>
-        <div class="color-box" id="color4"></div>
       </div>
       <div class="hex-codes">
         <span id="hex1">#FFFFFF</span>
         <button class="copy-btn" data-hex="hex1">Kopiraj</button>
         <span id="hex2">#FFFFFF</span>
         <button class="copy-btn" data-hex="hex2">Kopiraj</button>
-        <span id="hex3">#FFFFFF</span>
-        <button class="copy-btn" data-hex="hex3">Kopiraj</button>
-        <span id="hex4">#FFFFFF</span>
-        <button class="copy-btn" data-hex="hex4">Kopiraj</button>
       </div>
     </section>
 
-    <!-- Odsek z vnaprej izbranimi barvami -->
     <section id="vnaprej-izbrane-barve">
       <h2>Vnaprej Izbrane Barve</h2>
       <div class="color-container">
         <div class="color-box" id="preset1" style="background-color: #FF5733;"></div>
         <div class="color-box" id="preset2" style="background-color: #33FF57;"></div>
-        <div class="color-box" id="preset3" style="background-color: #3357FF;"></div>
-        <div class="color-box" id="preset4" style="background-color: #F333FF;"></div>
       </div>
       <div class="hex-codes">
         <span id="preset-hex1">#FF5733</span>
         <button class="copy-btn" data-hex="preset-hex1">Kopiraj</button>
         <span id="preset-hex2">#33FF57</span>
         <button class="copy-btn" data-hex="preset-hex2">Kopiraj</button>
-        <span id="preset-hex3">#3357FF</span>
-        <button class="copy-btn" data-hex="preset-hex3">Kopiraj</button>
-        <span id="preset-hex4">#F333FF</span>
-        <button class="copy-btn" data-hex="preset-hex4">Kopiraj</button>
       </div>
     </section>
 
-    <!-- Odsek z mešanjem barv -->
     <section id="mesanje-barv">
       <h2>Mešanje Barv</h2>
       <p class="notice">
@@ -142,7 +119,6 @@
       </div>
     </section>
 
-    <!-- Odsek s pretvornikom HEX v RGB -->
     <section id="pretvornik-hex-rgb">
       <h2>Pretvornik HEX v RGB</h2>
       <div class="converter">
@@ -160,12 +136,10 @@
     </section>
   </main>
 
-  <!-- Noga strani -->
   <footer>
-    <p>Ustvaril Mark Predovič</p>
+    <p>Ustvaril Vaše Ime</p>
   </footer>
 
-  <!-- Povezava do zunanje JavaScript datoteke -->
   <script src="script.js" defer></script>
 </body>
 </html>
